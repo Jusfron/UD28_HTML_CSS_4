@@ -18,6 +18,21 @@ span {
 .menu {
     float: left;
     width: 150px;
+   
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: rgb(97, 138, 50);
+    padding: 8px;
+    margin: 5px;
+}
+
+li:hover {
+    background-color: rgb(110, 82, 56);
 }
 
 .contenido {
