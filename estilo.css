@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
 }
 
 h1 {
@@ -14,13 +15,19 @@ span {
     text-align: center;
 }
 
-div {
-    border: 1px solid gray;
+.menu {
+    float: left;
+    width: 150px;
+}
+
+.contenido {
+    border: 1px solid lightgray;
     padding: 15px;
+    margin-left: 170px;
 }
 
 h2 {
-    color: rgb(108, 161, 71);
+    color: rgb(107, 156, 73);
     text-decoration: underline;
 }
 
