@@ -1,6 +1,13 @@
+html {
+    background-color: lightgrey;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 900px;
+    border-radius: 1%;
+    background-color: white;
+    padding: 20px;
 }
 
 h1 {
@@ -26,19 +33,20 @@ ul {
 }
 
 li {
-    background-color: rgb(97, 138, 50);
     padding: 8px;
     margin: 5px;
+    background-image: linear-gradient(white, rgb(97, 138, 50));
 }
 
 li:hover {
-    background-color: rgb(110, 82, 56);
+    background-image: linear-gradient(white, rgb(110, 82, 56));
 }
 
 .contenido {
     border: 1px solid lightgray;
     padding: 15px;
     margin-left: 170px;
+    background-image: linear-gradient(lightgray, white, lightgray);
 }
 
 h2 {
@@ -48,4 +56,9 @@ h2 {
 
 h3 {
     color: rgb(120, 85, 30);
+}
+
+.licencia {
+    text-align: center;
+    color: lightgray;
 }
